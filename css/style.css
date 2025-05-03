@@ -98,6 +98,17 @@ address {
   padding: 96px 0;
 }
 
+.section-header {
+  margin-bottom: 72px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -813,6 +824,60 @@ input.hero-modal-checkbox:checked+label span {
 }
 
 /* ---------------- advantages -------------- */
+
+/* ---------------- our team -------------- */
+
+.our-team {
+  background-color: var(--cloud);
+}
+
+.team-member-item-subtitle,
+.team-member-item-title {
+  text-align: center;
+}
+
+.team-member-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  color: var(--navy-blue);
+}
+
+.team-member-item-content {
+  padding: 32px 0;
+}
+
+.team-member-item-socials {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.team-members-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.team-member-item {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: var(--white);
+  border-radius: 0 0 4px 4px;
+  flex: 0 0 264px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-members-list {
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1158px) {}
+
+/* ---------------- our team -------------- */
 
 
 /* ----------------  -------------- */

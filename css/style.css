@@ -95,7 +95,7 @@ address {
 }
 
 .section {
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -202,6 +202,12 @@ address {
 .mobile-menu-close-button:hover .mobile-menu-close-icon,
 .mobile-menu-close-button:focus .mobile-menu-close-icon {
   fill: var(--white);
+}
+
+.team-member-item-title,
+.advantages-item-title,
+.portfolio-item-title {
+  margin-bottom: 8px;
 }
 
 /* ---------------- common styles -------------- */
@@ -731,6 +737,82 @@ input.hero-modal-checkbox:checked+label span {
 @media screen and (min-width: 1158px) {}
 
 /* ---------------- hero madal -------------- */
+
+/* ---------------- advantages -------------- */
+
+.advantages-icon-wrapper {
+  background-color: var(--cloud);
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  margin-bottom: 8px;
+  display: none;
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+}
+
+.advantages-item {
+  width: 100%;
+}
+
+.advantages-item-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  text-align: center;
+  color: var(--navy-blue);
+}
+
+.advantages-item-subtitle {
+  text-align: left;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .advantages-list {
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .advantages-list {
+    gap: 24px;
+  }
+
+  .advantages-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .advantages-icon-wrapper {
+    display: flex;
+  }
+
+  .advantages-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: left;
+    color: var(--navy-blue);
+  }
+
+  .advantages-item-subtitle {
+    text-align: left;
+    font-weight: 400;
+  }
+}
+
+/* ---------------- advantages -------------- */
 
 
 /* ----------------  -------------- */

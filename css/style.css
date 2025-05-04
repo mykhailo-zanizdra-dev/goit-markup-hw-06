@@ -334,7 +334,7 @@ address {
 
 .mobile-menu-container {
   position: relative;
-  padding: 72px 16px 40px;
+  padding: 76px 16px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -791,6 +791,10 @@ input.hero-modal-checkbox:checked+label span {
     row-gap: 72px;
     column-gap: 24px;
   }
+
+  .advantages-item-title {
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -810,7 +814,6 @@ input.hero-modal-checkbox:checked+label span {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
-    text-align: left;
     color: var(--navy-blue);
   }
 
@@ -944,11 +947,15 @@ input.hero-modal-checkbox:checked+label span {
     row-gap: 72px;
     column-gap: 24px;
   }
+
+  .section {
+    padding: 96px 0 86px 0;
+  }
 }
 
 @media screen and (min-width: 1158px) {
   .portfolio-list {
-    row-gap: 40px;
+    row-gap: 48px;
   }
 
   .portfolio-item {
@@ -959,6 +966,10 @@ input.hero-modal-checkbox:checked+label span {
   .portfolio-item:hover {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     cursor: pointer;
+  }
+
+  .section {
+    padding: 120px 0;
   }
 }
 

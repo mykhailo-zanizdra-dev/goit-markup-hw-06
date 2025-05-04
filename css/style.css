@@ -717,7 +717,7 @@ address {
   flex-shrink: 0;
 }
 
-input.hero-modal-checkbox:checked+label span {
+input.hero-modal-checkbox:checked+label span.hero-modal-custom-checkbox {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
